@@ -1,0 +1,118 @@
+
+  <ion-header >
+    <ion-navbar color = 'secondary'>
+     <h4 style="text-align: center">Mis discos</h4>
+    </ion-navbar>
+  </ion-header>
+
+
+
+<ion-content padding style= "background-color: #1D3557">
+
+  <ion-card padding style='background-color:#E63946; border-radius: 5px'>
+    <ion-row>
+    <ion-col>
+      <img src = '../assets/bad.jpg' (click)='imagenmj()'>
+    </ion-col>
+
+    <ion-col>
+      <ion-card-header></ion-card-header>
+      <ion-card-header></ion-card-header>
+      <ion-card-header></ion-card-header>
+      <ion-card-header></ion-card-header>
+      <h2 color = "black" (click)='biomj()'> Michael Jackson </h2>
+      <p color = "dark" (click)='tracksmj()'>Bad<br>
+      1987 </p>
+      <ion-list (click)='reviewmj()'>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+      </ion-list>
+      <ion-icon name="play" color="primary"></ion-icon>
+      
+  </ion-col>
+  </ion-row>
+</ion-card>
+
+  <ion-card padding style='background-color:#F1FAEE; border-radius: 5px'>
+    <ion-row>
+    <ion-col>
+      <img src = '../assets/1975.jpg' (click)='imagen1975()'>
+    </ion-col>
+
+    <ion-col>
+        <ion-card-header></ion-card-header>
+        <ion-card-header></ion-card-header>
+      <ion-card-header></ion-card-header>
+      <ion-card-header></ion-card-header>
+      <h2 color = "black" (click)='bio1975()'> The 1975 </h2>
+      <p color = "dark" (click)='tracks1975()'>I like it when you...<br>
+      2016 </p>
+      <ion-list (click)='review1975()'>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star-half"></ion-icon>
+      </ion-list>
+      <ion-icon name="play" color="primary"></ion-icon>
+      
+  </ion-col>
+  </ion-row>
+</ion-card>
+
+<ion-card padding style="background-color: #A8DADC; border-radius: 5px">
+  <ion-row>
+    <ion-col>
+        
+     <img src ="../assets/panic.jpg" (click)="imagenpanic()">
+    </ion-col>
+    <ion-col>
+        <ion-card-header></ion-card-header>
+        <ion-card-header></ion-card-header>
+      <ion-card-header></ion-card-header>
+      <ion-card-header></ion-card-header>
+    <h2 color = "black" (click)="biopanic()">Panic! At The Disco</h2>
+   <p color = "dark" (click)='trackspanic()'>Pray For The Wicked <br>
+   2018</p>
+  <ion-list (click)='reviewpanic()'>
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star"></ion-icon>
+    <ion-icon name="star-outline"></ion-icon>
+  </ion-list>
+  <ion-icon name="play" color="primary"></ion-icon>
+  </ion-col>
+  </ion-row>
+  </ion-card>
+
+  <ion-card padding style="background-color: #457B9D; ">
+    <ion-row>
+    <ion-col>
+    <img src ="../assets/musealbum.jpg" (click)="imagenmuse()">
+    </ion-col>
+   <ion-col>
+      <ion-card-header></ion-card-header>
+      <ion-card-header></ion-card-header>
+      <ion-card-header></ion-card-header>
+      <ion-card-header></ion-card-header>
+   <h2 color = "black" (click)="biomuse()">Muse</h2>
+    <p color = "dark" (click)='tracksmuse()'>Simulation Theory <br>
+     2018</p>
+     <ion-list (click)='reviewmuse()'>
+     <ion-icon name="star"></ion-icon>
+     <ion-icon name="star"></ion-icon>
+    <ion-icon name="star"></ion-icon>
+   <ion-icon name="star"></ion-icon>
+   <ion-icon name="star-outline"></ion-icon>
+     </ion-list>
+     <ion-icon name="play" color="primary"></ion-icon>
+    </ion-col>
+   </ion-row>
+ </ion-card>
+
+</ion-content>
+
